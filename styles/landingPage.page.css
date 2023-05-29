@@ -1,0 +1,35 @@
+@import url(variables.css);
+
+.landingPage {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    height: 100vh;
+    background: linear-gradient(0deg, var(--purple-color) 0%, var(--black-color) 50%);
+}
+.landingPage_title_image_container {
+    grid-column: 3/ span 5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.landingPage_title {
+    font-size: 72px;
+    font-weight: 800;
+    
+    color: #8a01ca;
+    font-family: proxima
+}
+
+.landingPage_subtitle {
+    font-size: 28px;
+    font-weight: 200;
+    color: #8a01ca;
+    font-family: Arial, Helvetica, sans-serifS;
+}
+
+.landingPage_knight_image {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+}
